@@ -1,0 +1,51 @@
+
+<head>
+    <title>detail submit form </title>
+
+</head>
+<body>
+<form action=""> 
+    <h1> detail </h1>
+    <h2>contact</h2>
+
+    <p>Name: <input type="text" name="name" required></p>
+    <fieldset>
+        <legend>gender:</legend>
+    <p> male<input type="radio" name="gender" id="" required>
+        female<input type="radio" name="gender" id="" required>
+        other<input type="radio" name="gender" id="" required>   
+    </p>
+    </fieldset> 
+    <p>
+        Address:</address><textarea name="address" id="address" rows="5" cols="150" required></textarea>
+    </p>
+    <p>
+        email: <input type="email" name="email" id="email" required>
+
+    </p>
+    <p>
+        pincode:<input type="number" name="pincode" id="pincode" required>
+    </p>
+<h3> city</h3>
+ <select name="card" id="card" required>
+ <option value="">HAJIPUR</option>
+ <option value="visa">PATNA</option>
+<option value="debit">SONPUR</option>
+<option value="creadit">JADHUA</option>
+</select>
+<p> ward numer:
+    <input type="number" name="ward number" id="ward number" required>
+</p>
+<p> 
+    <h2>cvv: <input type="password" name="password" id="password" required>
+    </h2>
+</p>
+<p>
+    ex date: <input type="date" name="ex date" id="ex date" required>
+</p>
+
+<input type="submit" value="{submitnow}">
+
+</form>
+</body>
+</html>
